@@ -1,6 +1,6 @@
-# In Phase 1, we were to analyze the data from [SCI](https://amar.org.ir)
+# Analyzing the data from [SCI](https://amar.org.ir)
 
-## In the First Segment: Statistical Analysis Section
+## Statistical Analysis Section
 
 In this section, we aim to address several questions using statistical methods. Some questions are posed to help build intuition and understanding of the data, others come from a specific individual, and finally, there are hypotheses that require validation.
 
@@ -37,7 +37,7 @@ In this section, we aim to address several questions using statistical methods. 
 - Additionally, evaluate the following statement with hypothesis testing, explanations, and in-depth analysis:  
   *"An individual claims that urban income increased in 2022 compared to 2021, indicating a better standard of living for urban residents in 2022."*
 
-## Second Segment: Clustering Problem
+## Clustering Problem
 
 ### Problem 1: Clustering
 
@@ -55,17 +55,7 @@ After that, run the K-means algorithm for different values of k (from 1 to 20). 
 
 In the final step of this question, use the DBSCAN algorithm to cluster the data and adjust the hyperparameters to obtain a meaningful output with 10 clusters. Plot the data points in a scatter plot, showing the clusters formed. Explain how each hyperparameter affects the output.
 
-## Third Segment: Prediction Problem
+## Prediction Problem
 
 Predicting household expenditures in various domains can help guide investment decisions in those areas.
-
-In this section, we ask you to train a model that, given household data, predicts the monthly transportation expenditure of a household.
-
-- You may use any machine learning algorithms that have been taught in bootcamp classes for modeling.
-- **Note:** Using algorithms outside of the main ones taught in class is not allowed for the main task. However, you can use additional algorithms for bonus points if you are interested and confident in their application, provided all team members have a sufficient understanding of the chosen method.
-- You may add or engineer any desired features to the dataset if needed, but ensure that the model’s input features do not lead to target leakage.
-
-To evaluate your final model, use the data from Winter 2023 as the test set.
-
-- Compare your model’s predictions with the actual test data and plot the loss and R² charts.
-- When presenting your results, provide an appropriate analysis of the outcomes.
+train a model that, given household data, predicts the monthly transportation expenditure of a household.
